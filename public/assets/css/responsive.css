@@ -1,0 +1,139 @@
+
+@media(max-width: 768px) {
+    *,** {
+        box-sizing: border-box;
+       
+    }
+    html {
+        overflow-x: hidden;
+    }
+    body {
+        margin: 0 auto;
+        overflow-x: hidden;
+        
+    }
+    .navbar-collapse {
+        padding-right: 0px !important;
+
+    }
+	nav.navbar2 > div.collapse > ul > li > a {
+        font-family: Roboto;
+        font-size: 10px;
+        /* font-weight: bold; */
+        text-align: right;
+        color: #273d47;
+        text-transform: uppercase;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    form.navbar-form > div.form-group > input {
+        margin-right: 5px;
+        width: 150px;
+    }
+    
+    .col-sm-3 {
+        width: 25% !important;
+    }
+    section.product-categories {
+        height: auto;
+    }
+    .col-sm-4 {
+        width: 33.33333333% !important;
+    }
+    div.col-md-4 >div.thumbnail {
+        height: 640px;
+    }
+   div.thumbnail >div.caption > p {
+        font-size: 18px;
+        text-align: left;
+        color: #7e848c;
+    }
+    .carousel-control {
+        display: none;
+    }
+}
+@media(max-width: 1024px) {
+    *,** {
+        box-sizing: border-box;
+       
+    }
+    html {
+        overflow-x: hidden;
+    }
+    body {
+        margin: 0 auto;
+        overflow-x: hidden;
+        
+    }
+    .navbar-collapse {
+        padding-right: 0px !important;
+
+    }
+	nav.navbar2 > div.collapse > ul > li > a {
+        font-family: Roboto;
+        font-size: 10px;
+        /* font-weight: bold; */
+        text-align: right;
+        color: #273d47;
+        text-transform: uppercase;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    form.navbar-form > div.form-group > input {
+        margin-right: 5px;
+        width: 150px;
+    }
+    
+    .col-sm-3 {
+        width: 25% !important;
+    }
+    section.product-categories {
+        height: auto;
+    }
+    .col-sm-4 {
+        width: 33.33333333% !important;
+    }
+    div.col-md-4 >div.thumbnail {
+        height: 640px;
+    }
+   div.thumbnail >div.caption > p {
+        font-size: 18px;
+        text-align: left;
+        color: #7e848c;
+    }
+    .carousel-control {
+        display: none;
+    }
+}
+@media(max-width: 425px) {
+    html {
+        overflow-x: hidden;
+    }
+    div.exotic-header > h1 {
+       font-size: 100px;
+    }
+    .col-xs-6 {
+        width: 50% !important;
+    }
+    .col-xs-12 {
+        width: 100% !important;
+    }
+    .col-xs-12 > ul {
+        text-align: center;
+    }
+    div.footer {
+        text-align: center;
+    }
+    .hideslider {
+        display: none;
+    }
+    .carousel-control {
+        display: none;
+    }
+    .navbar-toggle2 {
+        display: none !important;
+    }
+    nav {
+        height: auto !important;
+    }
+}
